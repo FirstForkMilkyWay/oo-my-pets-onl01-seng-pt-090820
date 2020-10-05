@@ -5,7 +5,6 @@ class Owner
   attr_reader :name 
   
   @@all = []
-  @@pets = []
   
   
   def initialize(name)
@@ -65,13 +64,6 @@ end
     end 
   end 
   
-  def pets_cat 
-    @@pets << Cat.all  
-  end
-  
-  def pets_dog 
-    @@pets << Dog.all
-  end 
   
   def sell_pets 
     Cat.all.map do |cat|
