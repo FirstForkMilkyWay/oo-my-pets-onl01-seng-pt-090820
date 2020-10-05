@@ -74,8 +74,8 @@ end
   end 
   
   def sell_pets 
-    @@pets.map do |pets|
-      pets.mood = 'nervous'
+    @@pets.each do |pet|
+      pet.mood = 'nervous'
       binding.pry 
     end 
   end 
