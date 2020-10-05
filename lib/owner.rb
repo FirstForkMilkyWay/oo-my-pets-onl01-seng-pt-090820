@@ -74,10 +74,10 @@ end
   end 
   
   def sell_pets 
-    Cat.all.each do |cat|
+    Cat.all.map do |cat|
       cat.mood = 'nervous'
     end.clear
-      Dog.all.each do |dog|
+      Dog.all.map do |dog|
       dog.mood = 'nervous'
     end
     Cat.all.clear 
