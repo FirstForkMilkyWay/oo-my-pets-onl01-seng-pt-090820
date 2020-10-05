@@ -84,6 +84,8 @@ end
     end
     Dog.all.clear
     end
+  end 
+end 
 
     
   
