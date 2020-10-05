@@ -83,6 +83,9 @@ end
     end 
     Dog.all.clear
   end 
+  
+  def list_pets 
+  end 
 
 
 end 
