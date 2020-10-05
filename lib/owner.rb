@@ -58,4 +58,11 @@ end
     end 
   end 
   
+  def walk_dogs 
+    Cat.all.each do |cat|
+      cat.mood = 'happy'
+    end 
+  end 
+    
+  
 end
