@@ -53,7 +53,7 @@ end
   end
   
   def walk_dogs 
-    Dog.mood  
+    Dog.mood
   end 
   
 end
