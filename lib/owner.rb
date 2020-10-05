@@ -81,7 +81,6 @@ end
     end 
       Dog.all.map do |dog|
       dog.mood = 'nervous'
-    end
       dog.clear 
   end 
 
