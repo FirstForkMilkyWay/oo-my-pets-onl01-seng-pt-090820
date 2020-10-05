@@ -80,6 +80,9 @@ end
       Dog.all.each do |dog|
       dog.mood = 'nervous'
     end 
+    Cat.all.clear
+    end
+    Dogs.all.clear 
   end 
     
   
